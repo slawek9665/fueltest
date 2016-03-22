@@ -32,7 +32,6 @@ class Controller_Comment extends Controller {
         $comment->save();
         
         return $this->action_index();
-        
     }
 
 }
