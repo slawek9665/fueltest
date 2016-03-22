@@ -6,5 +6,18 @@
  */
 
 return array(
-
+    Fuel::DEVELOPMENT => array(
+        'type'          => 'mysql',
+        'connection'    => array(
+            'hostname'   => 'localhost',
+            'database'   => 'blog_example',
+            'username'   => 'yourmyseluser',
+            'password'   => 'yourmysqlpassword',
+            'persistent' => false,
+        ),
+        'table_prefix' => '',
+        'charset'      => 'utf8',
+        'caching'      => false,
+        'profiling'    => false,
+    )
 );
